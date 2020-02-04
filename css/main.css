@@ -47,3 +47,9 @@ h6 {
     margin: 0 auto;
     max-width: 1170px;
 }
+
+/*create a rule that selects all section elem*/
+
+section {
+    display: flex;
+}
