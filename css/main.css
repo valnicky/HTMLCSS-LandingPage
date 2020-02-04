@@ -50,6 +50,19 @@ h6 {
 
 /*create a rule that selects all section elem*/
 
+
 section {
     display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-one {
+    flex: 1;
 }
