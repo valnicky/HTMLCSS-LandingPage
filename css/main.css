@@ -78,3 +78,30 @@ section {
 .space-between {
     justify-content: space-between;
 }
+
+.btn {
+    cursor: pointer;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 3px;
+    line-height: 1.4;
+}
+
+.btn-default {
+    background-color: #faa541;
+    color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #364147;
+}
+
+/*form*/
+.form-control {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #a0a0a0;
+    color: #8598a2;
+    line-height: 1.4;
+}
