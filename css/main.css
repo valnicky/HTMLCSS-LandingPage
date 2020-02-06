@@ -169,11 +169,11 @@ section {
     text-transform: uppercase;
 }
 
-.account {
+.profile {
     margin-left: auto;
 }
 
-.profile {
+.account {
     text-align: right;
     padding: 15px;
     color: #364147;
