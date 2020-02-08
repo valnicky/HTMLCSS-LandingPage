@@ -195,7 +195,7 @@ section {
 }
 
 .hero {
-    background-image: url("../img/hero.jpg");
+    background-image: url('../img/hero.jpg');
     height: 400px;
     background-size: cover;
     background-position: center center;
@@ -203,7 +203,7 @@ section {
 }
 
 .hero h1 {
-    margin-left: -30px;
+    left: -30px;
     position: relative;
 }
 
