@@ -198,8 +198,8 @@ section {
     background-image: url("../img/hero.jpg");
     height: 400px;
     background-size: cover;
-    text-transform: uppercase;
     background-position: center center;
+    text-transform: uppercase;
 }
 
 .hero h1 {
@@ -269,7 +269,7 @@ section {
     text-align: center;
 }
 
-.category-text>div {
+.category-text div {
     font-size: 16px;
     font-weight: 200;
     color: #faa541;
