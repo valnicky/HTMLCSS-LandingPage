@@ -199,7 +199,9 @@ section {
     height: 400px;
     background-size: cover;
     text-transform: uppercase;
-    background-position: center;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .hero h1 {
