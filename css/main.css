@@ -203,8 +203,8 @@ section {
 }
 
 .hero h1 {
-    left: -30px;
     position: relative;
+    left: -30px;
 }
 
 .hero h2 {
@@ -222,7 +222,7 @@ section {
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 21px;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
 
 }
 
