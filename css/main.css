@@ -195,10 +195,11 @@ section {
 }
 
 .hero {
-    background-image: "/img/hero.jpg";
+    background-image: "img/hero.jpg";
     height: 400px;
     background-size: cover;
     text-transform: uppercase;
+    background-position: center;
 }
 
 .hero h1 {
@@ -214,7 +215,7 @@ section {
 .hero h2 {
     font-size: 63px;
     font-weight: 700;
-    line-height: 0.9
+    line-height: 0.9;
 }
 
 .hero p {
@@ -245,7 +246,7 @@ section {
     text-align: center;
 }
 
-.banner-text :last-child('div') {
+.banner-text div:last-child {
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
