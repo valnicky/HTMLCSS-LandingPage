@@ -286,7 +286,7 @@ section {
     content: "";
     position: absolute;
     border: 1px solid #fff;
-    margin: 30px 30px 50px 50px;
+    margin: 30px 50px;
     z-index: 1;
 }
 
@@ -302,12 +302,12 @@ section {
     flex: 0 0 41.666667%;
     background-color: #364147;
     padding: 30px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .full-banner-sidebar h4 {
     font-size: 40px;
-    weight: 700;
+    font-weight: 700;
     font-style: italic;
     color: #637f94;
     line-height: 1;
@@ -328,8 +328,15 @@ section {
     line-height: 1;
 }
 
-.full-banner-sidebar > div:nth-last-of-type(2) {
+.full-banner-sidebar > div:nth-of-type(2) {
     font-size: 25px;
     font-weight: 200;
     letter-spacing: 3px;
+}
+
+.full-banner-sidebar .btn.btn-default {
+    margin-top`: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
 }
