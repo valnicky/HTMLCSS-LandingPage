@@ -285,7 +285,7 @@ section {
 .full-banner:before {
     content: "";
     position: absolute;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     margin: 30px 50px;
     z-index: 1;
 }
@@ -302,6 +302,7 @@ section {
     flex: 0 0 41.666667%;
     background-color: #364147;
     padding: 30px;
+    text-transform: uppercase;
     color: #ffffff;
 }
 
@@ -335,7 +336,7 @@ section {
 }
 
 .full-banner-sidebar .btn.btn-default {
-    margin-top`: 50px;
+    margin-top: 50px;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
