@@ -381,7 +381,7 @@ footer:after {
 footer a {
     color: white;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 12px;
     padding: 0 0 4px;
 }
 
@@ -410,11 +410,11 @@ footer a:hover {
 }
 
 .facebook {
-    background-color: url('../img/facebook.svg');
+    background-image: url('../img/facebook.svg');
 }
 
 .pinterest {
-    background-color: url('..img/pinterest.svg');
+    background-image: url('..img/pinterest.svg');
 }
 
 .newsletter .link-header {
@@ -424,7 +424,7 @@ footer a:hover {
 }
 
 .newsletter .link-subheader {
-     font-style: italic;
+    font-style: italic;
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 15px;
@@ -443,3 +443,33 @@ footer a:hover {
     letter-spacing: 1px;
 }
 
+.ps {
+    flex: 0 0 25%;
+    padding: 40px 0;
+    color: #e5e5e5;
+    font-size: 16px;
+}
+
+.ps img {
+    max-width: 230px;
+}
+
+.demo {
+    padding: 0 30px;
+}
+
+.demo:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 30px 0;
+    background: linear-gradient(to-right, #f05a28 0 , #e80a89 100%);
+}
+
+.copyright {
+    flex: 0 0 75%;
+    padding: 10px 0;
+    font-size: 12px;
+    text-align:center;
+}
